@@ -1,0 +1,71 @@
+<!-- sample html for DOM practice -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Day 10</title>
+    <style>
+        * {
+            /* margin: 0; */
+            /* padding: 0; */
+            box-sizing: border-box;
+        }
+
+        #parent {
+            border: 2px solid #000;
+            padding: 20px;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="title">Day 10</h1>
+    <h2 id="subtitle">Event Handling</h2>
+    <button type="button" id="btn">CLICK</button>
+    <p id="p1">Today we are going to learn about</p>
+    <ul id="list">
+        <li>What is event handling?</li>
+        <li>Types of events</li>
+        <li>How to trigger them</li>
+    </ul>
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+        alt="js logo" width="100px">
+    <br>
+    <h2 id="keyboard">Try Input!!</h1>
+        <input type="text" id="input">
+        <p id="p2">It's going to be a great day!</p>
+        <form>
+            <input type="text" name="username" placeholder="Username">
+            <input type="email" name="email" placeholder="Email">
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <label for="mySelect">Choose an option:</label>
+        <select id="mySelect">
+            <option value="HELLO WORLD">HELLO WORLD</option>
+            <option value="HEY THERE">HEY THERE</option>
+        </select>
+
+        <p id="selectedValue">Selected value will be displayed here</p>
+
+        <br>
+        <ul id="myList">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <br>
+        <button id="add-child">Add Child</button>
+        <div id="parent">
+            <!-- Child elements will be added here -->
+        </div>
+
+</body>
+
+<script src="day_10.js"></script>
+
+</html>
