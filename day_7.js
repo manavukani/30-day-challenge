@@ -39,10 +39,9 @@ console.log(library.books[2]);
 
 // task 7
 console.log("------------------");
-let getBookInfo = function () {
+book.getBookInfo = function () {
   return `${this.title} was written in ${this.year}`;
-};
-book.getBookInfo = getBookInfo;
+};;
 console.log(book.getBookInfo());
 
 // task 8
@@ -59,3 +58,52 @@ for (let key in book) {
 console.log("------------------");
 console.log(Object.keys(book));
 console.log(Object.values(book));
+
+
+/* 
+
+Object.assign(target, source) // Copies properties from a source object to a target object
+
+Object.create(object) // Creates an object from an existing object
+
+Object.entries(object) // Returns an array of the key/value pairs of an object
+
+Object.fromEntries() // Creates an object from a list of keys/values
+
+Object.keys(object) // Returns an array of the keys of an object
+
+Object.values(object) // Returns an array of the property values of an object
+
+Object.groupBy(object, callback) // Groups object elements according to a function
+
+-------------------
+
+Object.defineProperty(object, property, descriptor) // Adding or changing an object property
+
+Object.defineProperties(object, descriptors) // Adding or changing object properties
+
+Object.getOwnPropertyDescriptor(object, property) // Accessing a Property
+
+Object.getOwnPropertyDescriptors(object) // Accessing Properties
+
+Object.getOwnPropertyNames(object) // Returns all properties as an array
+
+Object.getPrototypeOf(object) // Accessing the prototype
+
+-------------------
+
+const car = {type:"Fiat", model:"500", color:"white"}; // Prevents re-assignment
+
+Object.preventExtensions(object) // Prevents adding object properties
+
+Object.isExtensible(object) // Returns true if properties can be added to an object
+
+Object.seal(object) // Prevents adding and deleting object properties
+
+Object.isSealed(object) // Returns true if object is sealed
+
+Object.freeze(object) // Prevents any changes to an object
+
+Object.isFrozen(object) // Returns true if object is frozen
+
+*/
