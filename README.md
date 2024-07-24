@@ -1,6 +1,6 @@
 <!-- DAY 1 -->
 <details>
-  <summary>Day 1</summary>
+  <summary>Day 1 - Variables and Data Types</summary>
   <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-1-variables-and-data-types">Day 1: Variables and Data Types</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -45,7 +45,7 @@
 
 <!-- DAY 2 -->
 <details>
-<summary> Day 2 </summary>
+<summary> Day 2 - Operators</summary>
 <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-2-operators">Day 2: Operators</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -100,7 +100,7 @@
 
 <!-- DAY 3 -->
 <details>
-<summary> Day 3 </summary>
+<summary> Day 3 - Control Structures</summary>
 <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-3-control-structures">Day 3: Control Structures</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -151,7 +151,7 @@
 
   <!-- day 4 -->
 <details>
-<summary> Day 4 </summary>
+<summary> Day 4 - Loops</summary>
 
 <div>
    <h3 id="day-4-loops">Day 4: Loops</h3> 
@@ -208,7 +208,7 @@
 
 <!-- day 5 -->
 <details>
-  <summary>Day 5</summary>
+  <summary>Day 5 - Functions</summary>
   <div>
    <h3 id="day-5-functions">Day 5: Functions</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -260,7 +260,7 @@
 <br>
 
 <details>
-<summary>Day 6</summary>
+<summary>Day 6 - Arrays</summary>
 <div>
    <h3 id="day-6-arrays">Day 6: Arrays</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -313,7 +313,7 @@
 <br>
   <!-- day 7 -->
   <details>
-    <summary>Day 7</summary>
+    <summary>Day 7 - Objects</summary>
     <div>
    <h3 id="day-7-objects">Day 7: Objects</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -361,7 +361,7 @@
   <br>
 <!-- Day 8 -->
   <details>
-  <summary> Day 8 </summary>
+  <summary> Day 8 - ES6+ Features</summary>
   <div>
    <h3 id="day-8-es6-features">Day 8: ES6+ Features</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -412,7 +412,7 @@
 <!-- day 9 -->
 <br>
 <details>
-<summary>Day 9</summary>
+<summary>Day 9 - DOM Manipulation</summary>
 <div>
    <h3>Day 9: DOM Manipulation</h3> 
    <h4>Tasks/Activities:</h4> 
@@ -465,7 +465,7 @@
 
 <!-- Day 10 -->
 <details>
-<summary>Day 10</summary>
+<summary>Day 10 - Event Handling</summary>
 <div>
    <h3 id="day-10-event-handling">Day 10: Event Handling</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -517,7 +517,7 @@
 
 <!-- day 11 -->
 <details>
-<summary>Day 11</summary>
+<summary>Day 11 - Promises and Async/Await</summary>
 <div>
    <h3 id="day-11-promises-and-async-await">Day 11: Promises and Async/Await</h3> 
    <h4 id="tasks-activities-">Tasks/Activities:</h4> 
@@ -564,3 +564,53 @@
    </ul>
   </div>
   </details>
+
+<br>
+<!-- day 12 -->
+<details>
+<summary>Day 12 - Error Handling</summary>
+<div class="redactor-styles" id="learnyst-content">
+   <h3 id="day-12-error-handling">Day 12: Error Handling</h3> 
+   <h4 id="tasks-activities-">Tasks/Activities:</h4> 
+   <p><strong>Activity 1: Basic Error Handling with Try-Catch</strong></p> 
+   <ul> 
+    <li><strong>Task 1:</strong> Write a function that intentionally throws an error and use a try-catch block to handle the error and log an appropriate message to the console.</li> 
+    <li><strong>Task 2:</strong> Create a function that divides two numbers and throws an error if the denominator is zero. Use a try-catch block to handle this error.</li> 
+   </ul> 
+   <p><strong>Activity 2: Finally Block</strong></p> 
+   <ul> 
+    <li><strong>Task 3:</strong> Write a script that includes a try-catch block and a finally block. Log messages in the try, catch, and finally blocks to observe the execution flow.</li> 
+   </ul> 
+   <p><strong>Activity 3: Custom Error Objects</strong></p> 
+   <ul> 
+    <li><strong>Task 4:</strong> Create a custom error class that extends the built-in Error class. Throw an instance of this custom error in a function and handle it using a try-catch block.</li> 
+    <li><strong>Task 5:</strong> Write a function that validates user input (e.g., checking if a string is not empty) and throws a custom error if the validation fails. Handle the custom error using a try-catch block.</li> 
+   </ul> 
+   <p><strong>Activity 4: Error Handling in Promises</strong></p> 
+   <ul> 
+    <li><strong>Task 6:</strong> Create a promise that randomly resolves or rejects. Use <code>.catch()</code> to handle the rejection and log an appropriate message to the console.</li> 
+    <li><strong>Task 7:</strong> Use try-catch within an async function to handle errors from a promise that randomly resolves or rejects, and log the error message.</li> 
+   </ul> 
+   <p><strong>Activity 5: Graceful Error Handling in Fetch</strong></p> 
+   <ul> 
+    <li><strong>Task 8:</strong> Use the <code>fetch</code> API to request data from an invalid URL and handle the error using <code>.catch()</code>. Log an appropriate error message to the console.</li> 
+    <li><strong>Task 9:</strong> Use the <code>fetch</code> API to request data from an invalid URL within an async function and handle the error using try-catch. Log an appropriate error message.</li> 
+   </ul> 
+   <h4 id="feature-request-">Feature Request:</h4> 
+   <ol> 
+    <li><strong>Basic Error Handling Script</strong>: Write a script that demonstrates basic error handling using try-catch and finally blocks.</li> 
+    <li><strong>Custom Error Script</strong>: Create a script that defines and throws custom errors, handling them with try-catch blocks.</li> 
+    <li><strong>Promise Error Handling Script</strong>: Write a script that handles errors in promises using <code>.catch()</code> and try-catch within async functions.</li> 
+    <li><strong>Fetch Error Handling Script</strong>: Create a script that handles errors when using the <code>fetch</code> API to request data from invalid URLs.</li> 
+   </ol> 
+   <h4 id="achievement-">Achievement:</h4> 
+   <p>By the end of these activities, students will:</p> 
+   <ul> 
+    <li>Understand and implement basic error handling using try-catch blocks.</li> 
+    <li>Use finally blocks to execute code regardless of the try-catch outcome.</li> 
+    <li>Create and use custom error classes.</li> 
+    <li>Handle errors in promises using <code>.catch()</code> and within async functions using try-catch.</li> 
+    <li>Implement graceful error handling when making network requests with the <code>fetch</code> API.</li> 
+   </ul>
+  </div>
+</details>
