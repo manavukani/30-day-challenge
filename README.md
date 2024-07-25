@@ -1,5 +1,26 @@
+## About
+This repo is for 30 days of JavaScript challenge. I did it to revise my concepts of JavaScript and achieve consistency of coding daily.
+
+## Table of Contents
+
+- [Day 1 - Variables and Data Types](#Day1)
+- [Day 2 - Operators](#Day2)
+- [Day 3 - Control Structures](#Day3)
+- [Day 4 - Loops](#Day4)
+- [Day 5 - Functions](#Day5)
+- [Day 6 - Arrays](#Day6)
+- [Day 7 - Objects](#Day7)
+- [Day 8 - ES6+ Features](#Day8)
+- [Day 9 - DOM Manipulation](#Day9)
+- [Day 10 - Event Handling](#Day10)
+- [Day 11 - Promises and Async/Await](#Day11)
+- [Day 12 - Error Handling](#Day12)
+- [Day 13 - Modules](#Day13)
+
+## Day-wise Tasks
+
 <!-- DAY 1 -->
-<details>
+<details id="Day1">
   <summary>Day 1 - Variables and Data Types</summary>
   <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-1-variables-and-data-types">Day 1: Variables and Data Types</h3> 
@@ -44,7 +65,7 @@
 <br>
 
 <!-- DAY 2 -->
-<details>
+<details id="Day2">
 <summary> Day 2 - Operators</summary>
 <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-2-operators">Day 2: Operators</h3> 
@@ -99,7 +120,7 @@
 <br>
 
 <!-- DAY 3 -->
-<details>
+<details id="Day3">
 <summary> Day 3 - Control Structures</summary>
 <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-3-control-structures">Day 3: Control Structures</h3> 
@@ -150,7 +171,7 @@
 <br>
 
   <!-- day 4 -->
-<details>
+<details id="Day4">
 <summary> Day 4 - Loops</summary>
 
 <div>
@@ -207,7 +228,7 @@
 <br>
 
 <!-- day 5 -->
-<details>
+<details id="Day5">
   <summary>Day 5 - Functions</summary>
   <div>
    <h3 id="day-5-functions">Day 5: Functions</h3> 
@@ -259,7 +280,7 @@
 
 <br>
 
-<details>
+<details id="Day6">
 <summary>Day 6 - Arrays</summary>
 <div>
    <h3 id="day-6-arrays">Day 6: Arrays</h3> 
@@ -312,7 +333,7 @@
 
 <br>
   <!-- day 7 -->
-  <details>
+  <details id="Day7">
     <summary>Day 7 - Objects</summary>
     <div>
    <h3 id="day-7-objects">Day 7: Objects</h3> 
@@ -360,7 +381,7 @@
 
   <br>
 <!-- Day 8 -->
-  <details>
+  <details id="Day8">
   <summary> Day 8 - ES6+ Features</summary>
   <div>
    <h3 id="day-8-es6-features">Day 8: ES6+ Features</h3> 
@@ -411,7 +432,7 @@
 
 <!-- day 9 -->
 <br>
-<details>
+<details id="Day9">
 <summary>Day 9 - DOM Manipulation</summary>
 <div>
    <h3>Day 9: DOM Manipulation</h3> 
@@ -464,7 +485,7 @@
 <br>
 
 <!-- Day 10 -->
-<details>
+<details id="Day10">
 <summary>Day 10 - Event Handling</summary>
 <div>
    <h3 id="day-10-event-handling">Day 10: Event Handling</h3> 
@@ -516,7 +537,7 @@
 <br>
 
 <!-- day 11 -->
-<details>
+<details id="Day11">
 <summary>Day 11 - Promises and Async/Await</summary>
 <div>
    <h3 id="day-11-promises-and-async-await">Day 11: Promises and Async/Await</h3> 
@@ -567,7 +588,7 @@
 
 <br>
 <!-- day 12 -->
-<details>
+<details id="Day12">
 <summary>Day 12 - Error Handling</summary>
 <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-12-error-handling">Day 12: Error Handling</h3> 
@@ -616,7 +637,7 @@
 </details>
 
 <br>
-<details>
+<details id="Day13">
 <summary>Day 13 - Modules</summary>
 <div class="redactor-styles" id="learnyst-content">
    <h3 id="day-13-modules">Day 13: Modules</h3> 
