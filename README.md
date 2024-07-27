@@ -18,7 +18,7 @@ This repo is for 30 days of JavaScript challenge. I did it to revise my concepts
 - [Day 12 - Error Handling](#Day12)
 - [Day 13 - Modules](#Day13)
 - [Day 14 - Classes](#Day14)
-- [Day 15 - Closures](#Day15)
+- [Day 15 - Closures & Memoization](#Day15)
 - [Day 16 - Recursion](#Day16)
 - [Day 17 - Data Structures](#Day17)
 - [Day 18 - Algorithms](#Day18)
