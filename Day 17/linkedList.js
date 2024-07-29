@@ -7,6 +7,7 @@
 // 3. addPosition(x) - at certain posn
 // 4. removePosition(x) - at certain posn
 
+// task 1
 class Node {
   constructor(value) {
     this.value = value;
@@ -14,6 +15,7 @@ class Node {
   }
 }
 
+// task 2
 class LinkedList {
   constructor() {
     this.head = null;
