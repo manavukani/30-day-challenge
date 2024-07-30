@@ -20,16 +20,19 @@ const merge = (left, right) => {
   let leftIndex = 0;
   let rightIndex = 0;
 
+  // Loop through both arrays
+  // Compare elements and add smaller one to result
   while (leftIndex < left.length && rightIndex < right.length) {
     if (left[leftIndex] < right[rightIndex]) {
       result.push(left[leftIndex]);
-      leftIndex++;
+      leftIndex++; // next in left
     } else {
       result.push(right[rightIndex]);
-      rightIndex++;
+      rightIndex++; // next in right
     }
   }
 
+  //add remaining elements
   return result.concat(left.slice(leftIndex)).concat(right.slice(rightIndex));
 };
 
